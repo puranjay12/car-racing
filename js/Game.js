@@ -109,5 +109,8 @@ fill("red")
   end(){
     console.log("Game Ended");
     console.log(player.rank)
+       player.updateCount();
+      game.update();
+      CarsAtEnd.update();
   }
 }
