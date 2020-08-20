@@ -88,7 +88,7 @@ class Game {
 
     }
 
-    if(keyIsDown(UP_ARROW) && player.index !== null){
+    if(keyIsDown(UP_ARROW) && player.index !== null||keyCode === 32&&player.index !== null){
       player.distance +=10
       player.update();
     }
