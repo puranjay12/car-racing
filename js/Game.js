@@ -81,8 +81,8 @@ class Game {
           camera.position.y = cars[index-1].y;
         }
        
-        textSize(15);
-        text(allPlayers[plr].name + ": " + allPlayers[plr].distance, camera.position.x+100, camera.position.y)
+       // textSize(15);
+        //text(allPlayers[plr].name + ": " + allPlayers[plr].distance, camera.position.x+100, camera.position.y)
         
       }
 
